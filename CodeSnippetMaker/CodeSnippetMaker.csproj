@@ -6,7 +6,12 @@
     <Nullable>enable</Nullable>
 	  <UseWPF>true</UseWPF>
 	  <UseWindowsForms>true</UseWindowsForms>
+	  <ApplicationIcon>CSMIcon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="CSMIcon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="EControls" Version="0.2.7" />
